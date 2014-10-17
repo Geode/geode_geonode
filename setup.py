@@ -5,11 +5,11 @@ def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
 setup(
-    name="imio_geonode",
+    name="geode_geonode",
     version="0.2",
     author="",
     author_email="",
-    description="imio_geonode, based on GeoNode",
+    description="geode_geonode, based on GeoNode",
     long_description=(read('README.rst')),
     # Full list of classifiers can be found at:
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -17,9 +17,9 @@ setup(
         'Development Status :: 1 - Planning',
     ],
     license="BSD",
-    keywords="imio_geonode geonode django",
-    url='https://github.com/imio_geonode/imio_geonode',
-    packages=['imio_geonode',],
+    keywords="geode_geonode geonode django",
+    url='https://github.com/Geode/geode_geonode',
+    packages=['geode_geonode',],
     include_package_data=True,
     zip_safe=False,
 )
