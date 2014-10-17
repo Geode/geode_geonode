@@ -25,13 +25,13 @@ from geonode.settings import *
 # General Django development settings
 #
 
-SITENAME = 'imio_geonode'
+SITENAME = 'geode_geonode'
 
 # Defines the directory that contains the settings file as the LOCAL_ROOT
 # It is used for relative settings elsewhere.
 LOCAL_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-WSGI_APPLICATION = "imio_geonode.wsgi.application"
+WSGI_APPLICATION = "geode_geonode.wsgi.application"
 
 
 # Load more settings from a file called local_settings.py if it exists
