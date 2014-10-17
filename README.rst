@@ -1,4 +1,4 @@
-Imio_Geonode
+Geode_Geonode
 ========================
 
 You should write some docs, it's good for the soul.
