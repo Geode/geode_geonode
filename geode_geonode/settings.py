@@ -52,7 +52,7 @@ TEMPLATE_DIRS = (
 ) + TEMPLATE_DIRS
 
 # Location of url mappings
-ROOT_URLCONF = 'imio_geonode.urls'
+ROOT_URLCONF = 'geonode_geonode.urls'
 
 # Location of locale files
 LOCALE_PATHS = (
