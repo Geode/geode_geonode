@@ -1,5 +1,10 @@
 .navbar-brand {
-background: url(/static/img/logo_Geonode.png) no-repeat;
+	background: url(/static/img/logo_Geonode.png) no-repeat;
+    margin-bottom: 10px;
+    width: 150px;
+}
+.navbar-collapse{
+	margin-top: 10px
 }
 
 .container{
