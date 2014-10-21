@@ -18,4 +18,13 @@
 .hero-unit{
 	width: 970px;
 	margin: auto;
+	margin-bottom: 70px;
+    margin-top: 80px;
+}
+.hero-unit-content{
+	margin-top: 25px;
+}
+
+#subnav-tabs{
+	margin-top: 10px;
 }
